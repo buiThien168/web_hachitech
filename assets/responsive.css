@@ -9,13 +9,18 @@
     cursor: pointer;
   }
   .header-logo {
-    margin-right: 200px;
+    width: 100%;
+    max-width: 274px;
+    height: 54px;
   }
   .main__item-jobs {
-    /* display: block; */
     height: 800px;
-    width: 400px;
+    width: 70%;
     display: grid;
+    grid-template-columns: 50% 0 50% 0;
+  }
+  .main__item-job {
+    margin: 0 auto;
   }
   .main__item-job-hr {
     border: none;
@@ -33,6 +38,7 @@
   }
   .main__details-service__contents {
     width: 80%;
+    margin-left: 0;
   }
   .main__details-service__content {
   }
@@ -53,13 +59,95 @@
   }
   .main__details-Featured-product_left--ul {
     list-style: none;
+    margin-left: -10%;
   }
-  .main__details-Featured-product_right {
-    margin: 0 auto;
+  .main__details-Featured-product_right-imgs2 {
+  }
+  .main__details-Featured-product_right-img {
+    margin-left: 35%;
+    /* width: 60%; */
+    width: 100%;
+    height: 100%;
+    max-width: 60%;
+  }
+  .main__details-Featured-product_right-imgs {
   }
   .main__details-Featured-product_left {
     width: 100%;
     text-align: center;
+  }
+  .main__details-vision {
+    height: auto;
+    position: static;
+  }
+  .main__details-vision-wrap {
+    width: 100%;
+    height: 50%;
+    padding-top: 50px;
+  }
+  .main__details-vision-wraps {
+    display: block;
+  }
+  .main__details-vision-wrap1 {
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+  }
+  .main__details-vision-wrap2 {
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+  }
+  .fix-posison {
+    height: 0;
+  }
+  .main__details-vision-wrap3 {
+    width: 100%;
+    height: 700px;
+    padding-top: 50px;
+  }
+  .main__item-job--img {
+    width: 50%;
+    height: 50%;
+  }
+  .main__details-banner2 {
+    display: block;
+    height: auto;
+  }
+  .main__details-banner2-box.left {
+    border: 5px solid;
+  }
+  .main__details-banner2-box.rights {
+    border: 5px solid;
+  }
+  .footer__box-form {
+    display: block;
+    height: auto;
+  }
+  .footer__box-forms--wrap {
+  }
+  .main__item-job-hr1 {
+    border: none;
+  }
+  .footer__box-forms.left {
+    width: 100%;
+    border-bottom: 2px solid;
+  }
+  .footer__box-forms.right {
+    width: 100%;
+  }
+  .footer__box.bottoms-info {
+  }
+  .footer {
+    height: 1500px;
+  }
+  .footer__box.bottoms-info {
+    width: 100%;
+    height: 1200px;
+    padding-top: 650px;
+  }
+  .main__details-vision-wrap-bottom {
+    width: 50%;
   }
 }
 /* Mobile */
@@ -70,8 +158,28 @@
     gap: 50px;
     justify-items: center;
   }
+  .main__details-service__img1 {
+    width: 100%;
+  }
   .main__details-service__contents {
     margin-left: 0;
+  }
+  h2.main__details-Featured-product-title {
+    font-size: 35px;
+    width: 100%;
+  }
+  .main__details-Featured-product_right-imgs {
+  }
+  .main__details-Featured-products {
+    max-width: 100%;
+  }
+
+  .main__item-jobs {
+    height: auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 15px 0;
   }
 }
 /* Ipad */
