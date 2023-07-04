@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <div class="header">
+        <img src="./assets/imgs/Logo.svg" class="header-logo" />
+        <div class="header-siderbar">
+          <ul class="header-siderbar-ul">
+            <li class="header-siderbar-li"><a href="">Trang chủ</a></li>
+            <li class="header-siderbar-li"><a href="">Các sản phẩm</a></li>
+            <li class="header-siderbar-li"><a href="">Dịch vụ</a></li>
+            <li class="header-siderbar-li"><a href="">Về chúng tôi</a></li>
+            <li class="header-siderbar-li"><a href="">Liên hệ</a></li>
+          </ul>
+        </div>
+        <span class="header-siderbar__toggle" onclick="open_nav()"
+          ><i class="fas fa-bars"></i
+        ></span>
+        <!-- reponse -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="">Trang chủ</a>
+          <a href="">Các sản phẩm</a>
+          <a href="">Dịch vụ</a>
+          <a href="">Về chúng tôi</a>
+          <a href="">Liên hệ</a>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main__banner1">
+          <img src="./assets/imgs/banner.png" alt="" class="main__banner" />
+        </div>
+        <div class="main__item-jobs">
+          <div class="main__item-job">
+            <img src="./assets/imgs/logo__item_jobs/01.svg" alt="" />
+            <p class="main__item-job-content">Thiết kế website</p>
+          </div>
+          <div class="main__item-job-hr"></div>
+          <div class="main__item-job">
+            <img src="./assets/imgs/logo__item_jobs/02.svg" alt="" />
+            <p class="main__item-job-content">Phát triển phần mềm</p>
+          </div>
+          <div class="main__item-job-hr"></div>
+          <div class="main__item-job">
+            <img src="./assets/imgs/logo__item_jobs/03.svg" alt="" />
+            <p class="main__item-job-content">
+              Xây dựng hệ thống quản lý thông tin
+            </p>
+          </div>
+          <div class="main__item-job-hr"></div>
+          <div class="main__item-job">
+            <img src="./assets/imgs/logo__item_jobs/04.svg" alt="" />
+            <p class="main__item-job-content">Tư vấn giải pháp chuyển đổi số</p>
+          </div>
+        </div>
+        <div class="main__details-services">
+          <h2 class="main__details-service--content">Dịch vụ của chúng tôi</h2>
+          <div class="main__details-service">
+            <div class="main__details-service__imgs">
+              <img
+                src="./assets/imgs/Group_.png"
+                alt=""
+                class="main__details-service__img1"
+              />
+              <!-- <img
+                src="./assets/imgs/Frame.svg"
+                alt=""
+                class="main__details-service__img"
+              /> -->
+            </div>
+            <div class="main__details-service__contents">
+              <h2 class="main__details-service__content">
+                <span class="main__details-service__content--red"
+                  >Hachitech Solution</span
+                >
+                cung cấp giải pháp phát triển phần mềm
+              </h2>
+              <p
+                class="main__details-service__content main__details-service__content--size"
+              >
+                Chúng tôi là công ty chuyên gia công nghệ hàng đầu cung cấp các
+                dịch vụ Phần mềm/Phát triển website/Outsource cao cấp và tối ưu
+                hóa các giải pháp quảng cáo đa nền tảng. Được xây dựng với đội
+                ngũ nhân viên trẻ, nhiệt huyết và đầy tham vọng, mang đến năng
+                suất làm việc tối đa để mang đến dịch vụ tốt nhất cho khách
+                hàng.
+              </p>
+              <button class="main__details-service__content-btn">
+                Xem thêm
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="main__details-cooperate">
+          <h2 class="main__details-cooperate_content">Quy trình hợp tác</h2>
+          <div class="main__details-cooperate_list">
+            <div class="main__details-cooperate_item">
+              <h1 class="main__details-cooperate_items">01</h1>
+              <img
+                class="main__details-cooperate_items img"
+                src="./assets/imgs/icon/01.svg"
+                alt=""
+              />
+              <div class="main__details-cooperate_items detail">
+                <h2 class="main__details-cooperate_items1">
+                  Tiếp nhận nhu cầu
+                </h2>
+                <ul class="main__details-cooperate_items2">
+                  <li class="main__details-cooperate_items2_li">
+                    Tiếp nhận và phân tích nhu cầu của khách hàng.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main__details-cooperate_item">
+              <h1 class="main__details-cooperate_items">02</h1>
+              <img
+                class="main__details-cooperate_items img"
+                src="./assets/imgs/icon/02.svg"
+                alt=""
+              />
+              <div class="main__details-cooperate_items detail">
+                <h2 class="main__details-cooperate_items1">Khảo sát dự án</h2>
+                <ul class="main__details-cooperate_items2">
+                  <li class="main__details-cooperate_items2_li">
+                    Khảo sát thực tế.
+                  </li>
+                  <li class="main__details-cooperate_items2_li">
+                    Đề xuất phương án.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main__details-cooperate_item">
+              <h1 class="main__details-cooperate_items">03</h1>
+              <img
+                class="main__details-cooperate_items img"
+                src="./assets/imgs/icon/03_.svg"
+                alt=""
+              />
+              <div class="main__details-cooperate_items detail">
+                <h2 class="main__details-cooperate_items1">Ký hợp đồng</h2>
+                <ul class="main__details-cooperate_items2">
+                  <li class="main__details-cooperate_items2_li">
+                    Xây dựng điều khoản. Tiến hành ký hợp đồng.
+                  </li>
+                  <li class="main__details-cooperate_items2_li">
+                    Tiến hành ký hợp đồng.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main__details-cooperate_item">
+              <h1 class="main__details-cooperate_items">04</h1>
+              <img
+                class="main__details-cooperate_items img"
+                src="./assets/imgs/icon/04.svg"
+                alt=""
+              />
+              <div class="main__details-cooperate_items detail">
+                <h2 class="main__details-cooperate_items1">Triển khai dự án</h2>
+                <ul class="main__details-cooperate_items2">
+                  <li class="main__details-cooperate_items2_li">
+                    Phân tích yêu cầu và tiến hành triển khai.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main__details-cooperate_item">
+              <h1 class="main__details-cooperate_items">05</h1>
+              <img
+                class="main__details-cooperate_items img"
+                src="./assets/imgs/icon/05.svg"
+                alt=""
+              />
+              <div class="main__details-cooperate_items detail">
+                <h2 class="main__details-cooperate_items1">Bàn giao demo</h2>
+                <ul class="main__details-cooperate_items2">
+                  <li class="main__details-cooperate_items2_li">
+                    Xây dựng điều khoản.
+                  </li>
+                  <li class="main__details-cooperate_items2_li">
+                    Tiến hành ký hợp đồng.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="main__details-cooperate_item">
+              <h1 class="main__details-cooperate_items">06</h1>
+              <img
+                class="main__details-cooperate_items img"
+                src="./assets/imgs/icon/06.svg"
+                alt=""
+              />
+              <div class="main__details-cooperate_items detail">
+                <h2 class="main__details-cooperate_items1">
+                  Thanh lý hợp đồng
+                </h2>
+                <ul class="main__details-cooperate_items2">
+                  <li class="main__details-cooperate_items2_li">
+                    Nghiệm thu sản phẩm.
+                  </li>
+                  <li class="main__details-cooperate_items2_li">
+                    Thanh lý hợp đồng.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main__details-Featured-products">
+          <h2 class="main__details-Featured-product-title">
+            Sản phẩm nổi bật của chúng tôi
+          </h2>
+          <div class="main__details-Featured-product">
+            <div class="main__details-Featured-product_left">
+              <h2 class="main__details-Featured-product_left--title">
+                Hidemium
+              </h2>
+              <p class="main__details-Featured-product_left--content">
+                Hidemium giúp bạn tạo một số lượng lớn hồ sơ và mỗi hồ sơ sẽ có
+                dấu vân tay kỹ thuật số riêng. Các hồ sơ này không trùng lặp với
+                nhau, vì vậy các trang web sẽ không cấm tài khoản của bạn.
+              </p>
+              <ul class="main__details-Featured-product_left--ul">
+                <li class="main__details-Featured-product_left--li">
+                  Hồ sơ trình duyệt, thành viên nhóm
+                </li>
+                <li class="main__details-Featured-product_left--li">
+                  Cơ sở dữ liệu dấu vân tay
+                </li>
+                <li class="main__details-Featured-product_left--li">
+                  Ra mắt đám mây
+                </li>
+              </ul>
+              <img
+                class="main__details-Featured-product_left--link"
+                src="./assets/imgs/product_web.svg"
+                alt=""
+              />
+              <button class="main__details-Featured-product_left--btn">
+                Xem thêm
+              </button>
+            </div>
+            <div class="main__details-Featured-product_right">
+              <div class="main__details-Featured-product_right-img">
+                <img
+                  class="main__details-Featured-product_right-img_"
+                  style="width: 369px; height: 529px"
+                  src="./assets/imgs/product/details.png"
+                  alt=""
+                />
+              </div>
+              <div class="main__details-Featured-product_right-imgs">
+                <img
+                  style="width: 225px; height: 48px"
+                  src="./assets/imgs/product/logo_hidemium.svg"
+                  alt=""
+                />
+                <img
+                  style="width: 520px; height: 295px"
+                  src="./assets/imgs/product/laptop.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+  <script src="./assets/style.js"></script>
+</html>
