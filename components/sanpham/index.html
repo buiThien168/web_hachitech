@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Các sản phẩm</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./reponse/tablet.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <div class="header">
+        <img src="../../assets/imgs/Logo.svg" class="header-logo" />
+        <div class="header-siderbar">
+          <ul class="header-siderbar-ul">
+            <li class="header-siderbar-li">
+              <a href="../../index.html">Trang chủ</a>
+            </li>
+            <li class="header-siderbar-li"><a href="">Các sản phẩm</a></li>
+            <li class="header-siderbar-li">
+              <a href="./components/dichvu/index.html">Dịch vụ</a>
+            </li>
+            <li class="header-siderbar-li"><a href="">Về chúng tôi</a></li>
+            <li class="header-siderbar-li"><a href="">Liên hệ</a></li>
+          </ul>
+        </div>
+        <span class="header-siderbar__toggle" onclick="open_nav()"
+          ><i class="fas fa-bars"></i
+        ></span>
+        <!-- reponse -->
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="">Trang chủ</a>
+          <a href="">Các sản phẩm</a>
+          <a href="">Dịch vụ</a>
+          <a href="">Về chúng tôi</a>
+          <a href="">Liên hệ</a>
+        </div>
+      </div>
+      <div class="main"></div>
+      <div class="footer"></div>
+    </div>
+  </body>
+  <script src="./style/style.js"></script>
+</html>

@@ -1,0 +1,68 @@
+/* header */
+.header {
+  width: 100%;
+  height: 128px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 5px solid #000;
+}
+.header-logo {
+  width: 274px;
+  height: 54px;
+  margin-left: 50px;
+}
+.header-siderbar-ul {
+  display: flex;
+  font-size: 24px;
+  font-weight: 600;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.header-siderbar-li a {
+  color: #000000;
+  margin: 0 18px;
+}
+.header-siderbar-ul :hover {
+  color: #d32121;
+}
+/* reponse header */
+.header-siderbar__toggle i {
+  display: none;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #ec4a3c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.sidenav a:hover {
+  color: #000;
+}
+/* end header */
