@@ -6,7 +6,8 @@
     <title>Các sản phẩm</title>
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/reset.css" />
-    <link rel="stylesheet" href="./reponse/tablet.css" />
+    <link rel="stylesheet" href="./reponsive/tablet.css" />
+    <link rel="stylesheet" href="./reponsive/mobile.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,500&display=swap"
       rel="stylesheet"
@@ -15,6 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <div class="main_wrapper">
@@ -25,9 +27,11 @@
             <li class="header-siderbar-li">
               <a href="../../index.html">Trang chủ</a>
             </li>
-            <li class="header-siderbar-li"><a href="">Các sản phẩm</a></li>
             <li class="header-siderbar-li">
-              <a href="./components/dichvu/index.html">Dịch vụ</a>
+              <a href="../sanpham/index.html">Các sản phẩm</a>
+            </li>
+            <li class="header-siderbar-li">
+              <a href="../dichvu/index.html">Dịch vụ</a>
             </li>
             <li class="header-siderbar-li"><a href="">Về chúng tôi</a></li>
             <li class="header-siderbar-li"><a href="">Liên hệ</a></li>
@@ -48,8 +52,306 @@
           <a href="">Liên hệ</a>
         </div>
       </div>
-      <div class="main"></div>
-      <div class="footer"></div>
+      <div class="main">
+        <div class="main_boxs">
+          <div class="main_box title">
+            <h3>Sản phẩm của chúng tôi</h3>
+          </div>
+          <div class="main_box search">
+            <input
+              type="text"
+              name="search"
+              placeholder="Search..."
+              class="input"
+            />
+            <a href="#" class="btn">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="main_box detail_1">
+            <div class="main__details-Featured-product">
+              <div class="main__details-Featured-product_left">
+                <h2 class="main__details-Featured-product_left--title">
+                  Hidemium
+                </h2>
+                <p class="main__details-Featured-product_left--content">
+                  Hidemium giúp bạn tạo một số lượng lớn hồ sơ và mỗi hồ sơ sẽ
+                  có dấu vân tay kỹ thuật số riêng. Các hồ sơ này không trùng
+                  lặp với nhau, vì vậy các trang web sẽ không cấm tài khoản của
+                  bạn.
+                </p>
+                <ul class="main__details-Featured-product_left--ul">
+                  <li class="main__details-Featured-product_left--li">
+                    Hồ sơ trình duyệt, thành viên nhóm
+                  </li>
+                  <li class="main__details-Featured-product_left--li">
+                    Cơ sở dữ liệu dấu vân tay
+                  </li>
+                  <li class="main__details-Featured-product_left--li">
+                    Ra mắt đám mây
+                  </li>
+                </ul>
+                <a href="#" class="main__details-Featured-product_left--a"
+                  ><img
+                    class="main__details-Featured-product_left--link"
+                    src="../../assets/imgs/product_web.svg"
+                    alt=""
+                /></a>
+              </div>
+              <div class="main__details-Featured-product_right">
+                <img
+                  class="main__details-Featured-product_right--img"
+                  src="./img/product-3.png"
+                  alt=""
+                />
+                <!-- <div class="main__detail-Featured-product_right_img">
+                  <img
+                    class="main__details-Featured-product_right-imgs1"
+                    src="../../assets/imgs/product/logo_hidemium.svg"
+                    alt=""
+                  />
+                  <img
+                    class="main__details-Featured-product_right-imgs2"
+                    src="../../assets/imgs/product/laptop.png"
+                    alt=""
+                  />
+                </div>
+                <div class="main__details-Featured-product_right-imgs">
+                  <img
+                    class="main__details-Featured-product_right-img_"
+                    src="../../assets/imgs/product/details.png"
+                    alt=""
+                  />
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="main_box detail_2">
+            <div class="main__details-Featured-product2">
+              <div class="main__details-Featured-product_right2">
+                <img
+                  class="main__details-Featured-product_right--img2"
+                  src="./img/product-4.png"
+                  alt=""
+                />
+                <!-- <div class="main__detail-Featured-product_right_img2">
+                  <img
+                    class="main__details-Featured-product_right-imgs12"
+                    src="../../assets/imgs/product/logo_hidemium.svg"
+                    alt=""
+                  />
+                  <img
+                    class="main__details-Featured-product_right-imgs22"
+                    src="../../assets/imgs/product/laptop.png"
+                    alt=""
+                  />
+                </div>
+                <div class="main__details-Featured-product_right-imgs22">
+                  <img
+                    class="main__details-Featured-product_right-img_22"
+                    src="../../assets/imgs/product/details.png"
+                    alt=""
+                  />
+                </div> -->
+              </div>
+              <div class="main__details-Featured-product_left2">
+                <h2 class="main__details-Featured-product_left--title2">
+                  Hidemium
+                </h2>
+                <p class="main__details-Featured-product_left--content2">
+                  Hidemium giúp bạn tạo một số lượng lớn hồ sơ và mỗi hồ sơ sẽ
+                  có dấu vân tay kỹ thuật số riêng. Các hồ sơ này không trùng
+                  lặp với nhau, vì vậy các trang web sẽ không cấm tài khoản của
+                  bạn.
+                </p>
+                <ul class="main__details-Featured-product_left--ul2">
+                  <li class="main__details-Featured-product_left--li2">
+                    Hồ sơ trình duyệt, thành viên nhóm
+                  </li>
+                  <li class="main__details-Featured-product_left--li2">
+                    Cơ sở dữ liệu dấu vân tay
+                  </li>
+                  <li class="main__details-Featured-product_left--li2">
+                    Ra mắt đám mây
+                  </li>
+                </ul>
+                <a class="main__details-link2" href="#"
+                  ><img
+                    class="main__details-Featured-product_left--link2"
+                    src="../../assets/imgs/product_web.svg"
+                    alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="main_box detail_3">
+            <div class="main__details-Featured-product">
+              <div class="main__details-Featured-product_left">
+                <h2 class="main__details-Featured-product_left--title">
+                  Hidemium
+                </h2>
+                <p class="main__details-Featured-product_left--content">
+                  Hidemium giúp bạn tạo một số lượng lớn hồ sơ và mỗi hồ sơ sẽ
+                  có dấu vân tay kỹ thuật số riêng. Các hồ sơ này không trùng
+                  lặp với nhau, vì vậy các trang web sẽ không cấm tài khoản của
+                  bạn.
+                </p>
+                <ul class="main__details-Featured-product_left--ul">
+                  <li class="main__details-Featured-product_left--li">
+                    Hồ sơ trình duyệt, thành viên nhóm
+                  </li>
+                  <li class="main__details-Featured-product_left--li">
+                    Cơ sở dữ liệu dấu vân tay
+                  </li>
+                  <li class="main__details-Featured-product_left--li">
+                    Ra mắt đám mây
+                  </li>
+                </ul>
+                <a href="#" class="main__details-Featured-product_left--a"
+                  ><img
+                    class="main__details-Featured-product_left--link"
+                    src="../../assets/imgs/product_web.svg"
+                    alt=""
+                /></a>
+              </div>
+              <div class="main__details-Featured-product_right">
+                <img
+                  class="main__details-Featured-product_right--img"
+                  src="./img/product-3.png"
+                  alt=""
+                />
+                <!-- <div class="main__detail-Featured-product_right_img">
+                  <img
+                    class="main__details-Featured-product_right-imgs1"
+                    src="../../assets/imgs/product/logo_hidemium.svg"
+                    alt=""
+                  />
+                  <img
+                    class="main__details-Featured-product_right-imgs2"
+                    src="../../assets/imgs/product/laptop.png"
+                    alt=""
+                  />
+                </div>
+                <div class="main__details-Featured-product_right-imgs">
+                  <img
+                    class="main__details-Featured-product_right-img_"
+                    src="../../assets/imgs/product/details.png"
+                    alt=""
+                  />
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="main_box btn">
+            <button class="main_box--btn">Xem thêm</button>
+          </div>
+        </div>
+        <div class="main_box banner">
+          <h2 class="main_box-banner">Và hơn thế nữa</h2>
+          <div class="main_box-banner--list">
+            <ul class="main_box-banner">
+              <li class="main_box-banner--li1">Sample 1 (VPN)</li>
+              <li class="main_box-banner--li2">
+                Hãy cùng trải nghiệm dịch vụ của chúng tôi.
+              </li>
+            </ul>
+            <ul class="main_box-banner">
+              <li class="main_box-banner--li1">Sample 1 (VPN)</li>
+              <li class="main_box-banner--li2">
+                Hãy cùng trải nghiệm dịch vụ của chúng tôi.
+              </li>
+            </ul>
+            <ul class="main_box-banner">
+              <li class="main_box-banner--li1">Sample 1 (VPN)</li>
+              <li class="main_box-banner--li2">
+                Hãy cùng trải nghiệm dịch vụ của chúng tôi.
+              </li>
+            </ul>
+            <ul class="main_box-banner">
+              <li class="main_box-banner--li1">Sample 1 (VPN)</li>
+              <li class="main_box-banner--li2">
+                Hãy cùng trải nghiệm dịch vụ của chúng tôi.
+              </li>
+            </ul>
+            <ul class="main_box-banner">
+              <li class="main_box-banner--li1">Sample 1 (VPN)</li>
+              <li class="main_box-banner--li2">
+                Hãy cùng trải nghiệm dịch vụ của chúng tôi.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="footer-wapper">
+          <div class="footer-wappers top">
+            <h1 class="footer-wappers__top h1">Liên hệ chúng tôi</h1>
+            <p class="footer-wappers__top p">
+              Hãy cùng trải nghiệm dịch vụ của chúng tôi. Dịch vụ tốt nhất -
+              Hiệu quả nhanh chóng - Giá tốt nhất
+            </p>
+          </div>
+          <div class="footer-wappers-mid">
+            <div class="footer__box-form">
+              <div class="footer__box-forms left">
+                <div class="footer__box-forms--wrap">
+                  <div class="footer__box-forms-left">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p class="content-p">
+                      Địa chỉ: Tầng 3 tòa nhà Hoàng Gia Plaza, Đ. Quang Trung,
+                      P. Tân Thịnh, TP. Thái Nguyên
+                    </p>
+                  </div>
+                  <div class="footer__box-forms-left">
+                    <i class="fas fa-envelope"></i>
+                    <p class="content-p">Email: info@minhhoangjsc.com</p>
+                  </div>
+                  <div class="footer__box-forms-left">
+                    <i class="fas fa-phone-alt"></i>
+                    <p class="content-p">Điện thoại: 077 202 3333</p>
+                  </div>
+                </div>
+              </div>
+              <div class="main__item-job-hr1"></div>
+              <div class="footer__box-forms right">
+                <form class="box-forms-right">
+                  <label class="box_label" for="fname"
+                    ><span style="font-weight: 600">Tên: </span>Tên của
+                    bạn</label
+                  >
+                  <input type="text" id="fname" name="fname" />
+                  <label class="box_label" for="fname"
+                    ><label style="font-weight: 600">Email: </label>Email của
+                    bạn</label
+                  >
+                  <input type="text" id="fname" name="fname" />
+                  <label class="box_label" for="fname"
+                    ><label style="font-weight: 600">Lý do: </label>Tại sao bạn
+                    tiếp cận với chúng tôi?</label
+                  >
+                  <input type="text" id="fname" name="fname" />
+                  <label class="box_label" for="fname"
+                    ><label style="font-weight: 600">Tin nhắn: </label>Hãy cho
+                    chúng tôi biết làm thế nào để giúp bạn<br
+                  /></label>
+                  <input type="submit" class="box-forms-right-btn" />
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="footer-wappers bottom">
+            <img
+              class="footer-wappers--bottom img"
+              src="../../assets/imgs/footer/logo.svg"
+              alt=""
+            />
+            <p class="footer-wappers--bottom p1">
+              Để được phản hồi nhanh nhất, vui lòng liên hệ với chúng tôi qua
+            </p>
+            <p class="footer-wappers--bottom p2">Đã đăng ký Bản quyền</p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
   <script src="./style/style.js"></script>

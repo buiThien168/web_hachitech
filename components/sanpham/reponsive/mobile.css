@@ -1,0 +1,116 @@
+@media screen and (max-width: 414px) {
+  .header-logo {
+    margin-right: 5px;
+    width: 190px;
+    height: 38px;
+    margin-left: 0;
+  }
+  .header {
+    height: 80px;
+  }
+  .main_wrapper-item {
+    height: auto;
+  }
+  p.footer-wappers__top.p {
+    font-size: larger;
+    width: 100%;
+  }
+  .footer-wappers-mid {
+    height: auto;
+    width: 95%;
+    margin: 0 auto;
+    left: 3%;
+  }
+  .footer__box-forms--wrap {
+    padding: 20px 10px 30px 10px;
+  }
+  .footer-wappers.bottom {
+    display: block;
+    padding-top: 600px;
+    text-align: center;
+  }
+  img.footer-wappers--bottom.img {
+    margin-left: 30%;
+  }
+  p.footer-wappers--bottom.p1 {
+    margin-top: 40px;
+  }
+  p.footer-wappers--bottom.p2 {
+    margin-top: 40px;
+  }
+  .footer-wappers-mid {
+    width: 96%;
+    left: 2%;
+  }
+  .main_boxs {
+    width: 100%;
+    grid-template-rows: 4% 2% 28% 28% 28% 6%;
+  }
+  .main_box.search {
+    width: 88%;
+  }
+  .main__details-Featured-product_left {
+    grid-template-columns: 100%;
+  }
+  .main__details-Featured-product_left {
+    height: 600px;
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10p;
+    padding: 20px;
+    text-align: start;
+  }
+  .main__details-Featured-product_left--a {
+    justify-content: center;
+  }
+  .main__details-Featured-product {
+    grid-template-rows: 40% 60%;
+  }
+  .main_box-banner--list {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    padding: 35px;
+  }
+  .main_box.banner {
+    height: auto;
+  }
+  ul.main_box-banner {
+    margin-right: 50px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  img.main__details-Featured-product_right--img {
+    margin-top: 330px;
+    height: auto;
+    width: auto;
+  }
+  .main__details-Featured-product_left2 {
+    grid-template-columns: 100%;
+    width: 100%;
+    height: 300px;
+  }
+  img.main__details-Featured-product_right--img2 {
+    width: auto;
+    height: auto;
+    margin-right: 0;
+  }
+  .main_box.btn {
+    margin-top: 100px;
+  }
+  .main__details-Featured-product_right {
+    width: 100%;
+  }
+  .main_box.title {
+    font-size: 2rem;
+  }
+  .main_box.detail_2 {
+    width: 100%;
+    height: 525px;
+    margin-top: 170px;
+  }
+}
